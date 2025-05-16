@@ -10,21 +10,26 @@ public class Principal {
 	public static void main(String[] args) {
 
 		Scanner lectura = null;
-		
-		//Ejercicio
-		//ProyectoVeterinaria
-		//Paquetes
-		//Clase: Mascotas
-			//Atributos: clave, nombre, raza, precio
-		//Interface(crud basico hashMap)
-		//Implementacion
-		//Principal(Scanner, excepcion de errores, validaciones)
+
+		// Ejercicio
+		// ProyectoVeterinaria
+		// Paquetes
+		// Clase: Mascotas
+		// Atributos: clave, nombre, raza, precio
+		// Interface(crud basico hashMap)
+		// Implementacion
+		// Principal(Scanner, excepcion de errores, validaciones)
 
 		long codigoBarra;
 		String marca;
 		String medidas;
 		float precio;
 		int existencia, menuPrinc;
+
+		// Se agrega este codigo
+		int valor1 = 0;
+		int resultado = valor1 * 25;
+		System.out.println("Resultado " + resultado);
 
 		Llantas llanta;
 
