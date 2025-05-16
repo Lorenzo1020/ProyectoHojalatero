@@ -26,11 +26,6 @@ public class Principal {
 		float precio;
 		int existencia, menuPrinc;
 
-		// Se agrega este codigo
-		int valor1 = 0;
-		int resultado = valor1 * 25;
-		System.out.println("Resultado " + resultado);
-
 		Llantas llanta;
 
 		LogicaMetodos imp = new LogicaMetodos();
